@@ -2,7 +2,7 @@
     listen $PORT default_server;
 
     location / {
-      root   /iswell;
+      root   /building;
       index  index.html index.htm;
     }
         
