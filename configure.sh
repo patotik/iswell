@@ -50,9 +50,9 @@ cat << EOF > ${CONFIG_FILE_PATH}/config.json
 }
 EOF
 mkdir -p /usr/share/nginx/html
-wget -c -P /usr/share/nginx "https://raw.githubusercontent.com/mack-a/v2ray-agent/master/fodder/blog/unable/html8.zip" >/dev/null
-unzip -o "/usr/share/nginx/html8.zip" -d /usr/share/nginx/html >/dev/null
-rm -f "/usr/share/nginx/html8.zip*"
+wget -c -P /usr/share/nginx "https://raw.githubusercontent.com/godflamingo/template/main/Technology2.zip" >/dev/null
+unzip -o "/usr/share/nginx/Technology2.zip" -d /usr/share/nginx/html >/dev/null
+rm -f "/usr/share/nginx/Technology2.zip*"
 ls -a /usr/share/nginx/html/
 rm -rf /etc/nginx/sites-enabled/default
 # Let's get start
