@@ -1,0 +1,23 @@
+{
+  "name": "sailfly",
+  "description": "sailfly",
+  "keywords": [
+    ""
+  ],
+  "env": {
+    "APP_ID": {
+      "description": "ID",
+      "value": "54f87cfd-6c03-45ef-bb3d-9fdacec80a9a"
+    },
+    "APP_PATH": {
+      "description": "path",
+      "value": "/app"
+    }
+  },
+  "website": "",
+  "repository": "",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
